@@ -15,6 +15,7 @@ def cut_movie(src_path,des_path):
     header_time=header_time_str.split(":")
     header_time=int(header_time[0])*3600+int(header_time[1])*60+int(header_time[2])
     print ("header_time",header_time)
+
     #todo 片尾长度
     #footer_time_str='00:01:58'
     footer_time_str = '00:00:00'
